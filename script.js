@@ -7,7 +7,8 @@ request.onload=function(){
     var data=JSON.parse(request.response);
 
    // console.log(data);
-   var res = data.filter((element)=>element.population<100000);
+   var res= data.filter((element)=>element.name,region,sub region,population);
    console.log(res);
+   
 }
 
